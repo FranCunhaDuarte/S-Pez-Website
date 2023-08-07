@@ -10,17 +10,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/80520dbe4a.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <header class="header-index">
-        <div class="navbar">
-            <div class="logo-container">
-                <img src="./sources/text-white.png" class="logo-text" alt="">
-                <img src="./sources/logo.png" class="logo-img" alt="">
+        <nav>
+            <a href="./index.html">
+                <img src="./sources/text-white.png" alt="logo-text" class="logo-text-header">
+                <img src="./sources/logo.png" alt="logo" class="logo-img-header">
+            </a>
+            <div class="menu-btn_container">
+                <div class="menu-btn_clickbox">
+                    <div class="menu-btn_burger"></div>
+                </div>
             </div>
-            <span class="material-symbols-outlined menu-button">menu</span>
-        </div>
-        <nav></nav>
+            
+        </nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Elaboracion</li>
+            <li>Productos</li>
+            <li>Nosotros</li>
+            <li>Contactanos</li>
+        </ul>
         <div class="title-header">
             <p>SOMOS</p>
             <p>UNA</p>
@@ -35,7 +48,29 @@
             <a href="./pages/aboutUs.html" class="aboutUs-box"><div><p>NOSOTROS</p></div></a>
         </section>
     </main>
-    <footer>
+    <footer class="footer-index">
+        <div>
+            <i class="fa-solid fa-phone"></i>
+            <p>(+54 223) 480-1554</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <p>s-pez@support.com</p>
+        </div>
+        <div>
+            <i class="fa-brands fa-tiktok"></i>
+            <p>spez.distribuidora</p>
+        </div>
+        <div>
+            <i class="fa-brands fa-instagram"></i>
+            <p>spez.distribuidora</p>
+        </div>
+        <div>
+            <div class="logo-container-footer">
+                <img src="./sources/text-white.png" class="logo-text-footer" alt="">
+                <img src="./sources/logo.png" class="logo-img-footer" alt="">
+            </div>
+        </div>
     </footer>
     <script src="./javascript/main.js"></script>
 </body>
