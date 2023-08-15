@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S-PEZ</title>
+    <title>S-PEZ - PESCADOS Y MARISCOS</title>
     <link rel="shortcut icon" href="./sources/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,13 +13,14 @@
     <script src="https://kit.fontawesome.com/80520dbe4a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
     <header class="header-index">
         <nav class="navBar-mobile">
-            <a href="./index.html">
-                <img src="./sources/text-white.png" alt="logo-text" class="logo-text-header">
-                <img src="./sources/logo.png" alt="logo" class="logo-img-header">
-            </a>
+            <div class="logo-container">
+                <a href="./index.html">
+                    <img src="./sources/text-white.png" alt="logo-text" class="logo-text-header">
+                    <img src="./sources/logo.png" alt="logo" class="logo-img-header">
+                </a>
+            </div>
             <div class="menu-btn_container">
                 <div class="menu-btn_clickbox">
                     <div class="menu-btn_burger"></div>
@@ -40,12 +41,15 @@
             <p>FAMILIA</p>
         </div>
         <p>SUMANDO VALORES A LOS RECURSOS PESQUEROS ARGENTINOS</p>
+        <div class="img-container">
+            <img src="./sources/img.jpg" alt="fish-ships">
+        </div>
     </header>
     <main class="main-index">
         <section>
-            <a href="./pages/elaboration.html" class="elaboration-box"><div><p>ELABORACIÓN</p></div></a>
-            <a href="./pages/products.html" class="products-box"><div><p>PRODUCTOS</p></div></a>
-            <a href="./pages/aboutUs.html" class="aboutUs-box"><div><p>NOSOTROS</p></div></a>
+            <article class="elaboration-container"><a href="./pages/elaboration.html" class="elaboration-box"><p>ELABORACIÓN</p></a></article>
+            <article class="products-container"><a href="./pages/products.html" class="products-box"><p>PRODUCTOS</p></a></article>
+            <article class="aboutUs-container"><a href="./pages/aboutUs.html" class="aboutUs-box"><p>NOSOTROS</p></a></article>
         </section>
     </main>
     <footer class="footer-index">
