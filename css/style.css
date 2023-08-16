@@ -263,7 +263,7 @@ footer{
     justify-items: center;
     align-items: center;
     gap: 30px;
-    padding: 40px 0 40px 0;
+    padding: 40px 0 80px 0;
 }
 
 .main-index section article{
@@ -298,7 +298,7 @@ footer{
     background-image: url(../sources/Fishing-ship\(blured\).png);
 }
 
-.main-index section a div p{
+.main-index section a p{
     font-size: 2.2rem;
     font-weight: 800;
     text-shadow: 0px 0px 24px rgba(0, 0, 0, 0.99);
@@ -311,21 +311,30 @@ footer{
 .footer-index{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
     border-top: 1px solid gray;
-    padding-top: 40px;
     box-shadow: 0px 0px 58px -16px rgba(0, 0, 0, 0.371);
-
 }
 
-.footer-index div{
+.contact-container{
+    height: 100%;
+}
+
+.footer-index .contact-container{
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
+}
+
+.footer-index .contact-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .footer-index div i{
@@ -366,7 +375,7 @@ footer{
     body{
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
-        grid-template-rows: 100vh auto 600px;
+        grid-template-rows: 100vh auto 450px;
         grid-template-areas:
         "header header header"
         "main main main"
@@ -591,7 +600,7 @@ footer{
         justify-items: center;
         align-items: center;
         gap: 30px;
-        padding: 40px 0 40px 0;
+        padding: 50px 0 100px 0;
     }
 
     .elaboration-container{
@@ -644,4 +653,70 @@ footer{
         text-shadow: 0px 0px 24px rgba(0, 0, 0, 0.99);
         color: rgb(255, 255, 255);
     }
+
+    /*    F O O T E R    */
+
+    .footer-index{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-top: 1px solid gray;
+        box-shadow: 0px 0px 58px -16px rgba(0, 0, 0, 0.371);
+    }
+    
+    .contact-container{
+        height: 100%;
+    }
+    
+    .footer-index .contact-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .footer-index .contact-container div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .footer-index div i{
+        font-size: 25px;
+        color: #212121;
+    }
+    
+    .footer-index div p{
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .footer-index .logo-container-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 140px;
+        background-color: #113159;
+    }
+
+    .footer-index .logo-container-footer a{
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo-text-footer{
+        width: 230px;
+    }
+    
+    .logo-img-footer{
+        width: 90px;
+    }
+
 }
